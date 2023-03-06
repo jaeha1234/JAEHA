@@ -1,0 +1,15 @@
+float x,y,s;
+void setup(){
+  s = 100;
+  size(800,500);
+  x = 3*s;
+  y = 2*s;
+  square(x,y,150);
+  circle(x+37.5,y+45,40);
+  circle(x+112.5,y+45,40);
+  line(x,y,x+37.5,y-50);
+  line(x+37.5,y-50,x+75,y);
+  line(x+75,y,x+112.5,y-50);
+  line(412.5,y-50,x+150,y);
+  rect(x+40,x,s-s*0.25,y*0.1);
+}
